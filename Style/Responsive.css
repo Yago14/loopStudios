@@ -50,6 +50,7 @@
             --preto : black;
             --branco: #fff;
       }
+      
       .header{
             padding: 0 2rem;
             background-image: url("../images/mobile/image-hero.jpg");
@@ -159,6 +160,7 @@
             --preto : black;
             --branco: #fff;
       }
+    
       .tamb {
             max-height: 200px;
       }
@@ -191,6 +193,9 @@
       }
      .navLinkMobile li a{
       font-size: 19pt;
+     }
+     .footer .social p{
+      margin:  0 0 1rem 0;
      }
       
 
