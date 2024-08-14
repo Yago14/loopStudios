@@ -1,0 +1,198 @@
+@media (max-width:1278px) {
+      .main{
+            flex-direction: column;
+            align-items: center;
+           
+      }
+      .aside{
+            position: initial;
+            max-width: 650px;
+      }
+    
+      
+}
+@media (max-width:800px){
+      :root {
+            --font-1 :"Josefin Sans";
+            --font-2 :"Alata";
+            --size-1 :11pt;
+            --size-2 :25pt;
+            --size-3 :40pt;
+            --preto : black;
+            --branco: #fff;
+      }
+    
+      .navLink{
+            display: none;
+      }
+      .tamb{
+            display: flex;
+            align-items: center;
+      }
+      .tamb h1{
+            font-size: var(--size-3);
+           
+      }
+      .banner{
+            max-width: 500px;
+      }
+      .btnMenu{
+            display: block;
+      }
+}
+@media (max-width:680px) {
+      :root {
+            --font-1 :"Josefin Sans";
+            --font-2 :"Alata";
+            --size-1 :11pt;
+            --size-2 :20pt;
+            --size-3 :42pt;
+            --preto : black;
+            --branco: #fff;
+      }
+      .header{
+            padding: 0 2rem;
+            background-image: url("../images/mobile/image-hero.jpg");
+            background-size: cover;
+            background-position: center;
+            height: 90vh;
+      }
+      .tamb{
+            margin: auto 0;
+            padding: 1rem;
+         
+            
+      }
+      .banner{
+            max-width: 375px ;
+            margin-bottom: 2rem;
+            
+      }
+      .aside{
+            text-align: center;
+            padding: 0rem;
+            margin: auto 0;
+      }
+      .main{
+            margin-bottom: 1rem;
+          
+      }
+      .mobile-btn {
+            margin-top: 1rem ;
+            display: block;
+            font-size: var(--size-1);
+            height: 2rem;
+            width: 7rem;
+            background: none;
+            letter-spacing: 2px;
+            text-transform: uppercase;
+            border: solid 1px black;
+            
+            
+      }
+      .mobile-btn:hover{
+            background-color: var(--preto);
+            cursor: pointer;
+            color: var(--branco);
+            transition: all 400ms;
+
+      }
+      .btn-infor{
+            display: none;
+      }
+      .section{
+
+            align-items: center;
+      }
+      .card{
+            height: 110px;
+            object-position: center;
+      }
+      .card h4{
+            bottom: 100px;
+            font-size: var(--size-2);
+      }
+      .footer{
+            height: 40vh;
+            flex-direction: column;
+            text-align: center;
+      }
+      .footer h3{
+            margin-top: 1rem;
+      }
+      .navFooter ul{
+            flex-direction: column;
+            margin: 3px 0;
+      }
+      .navFooter ul li {
+            margin: 5px 0;
+      }
+      .social{
+           text-align: center;
+      }
+      @keyframes dash{
+            from{
+                  height: 0vh;
+      
+            }
+            to{
+                  height: 90vh;
+      
+            }
+      }
+      .navBarMobile{
+            height: 90vh;
+            animation: dash 1s normal;
+            padding: 3rem  2rem;
+      }
+
+
+      
+}
+@media (max-width:460px) {
+      :root {
+            --font-1 :"Josefin Sans";
+            --font-2 :"Alata";
+            --size-1 :10pt;
+            --size-2 :27pt;
+            --size-3 :42pt;
+            --preto : black;
+            --branco: #fff;
+      }
+      .tamb {
+            max-height: 200px;
+      }
+
+      .tamb h1{
+            font-size: var(--size-2);
+      }
+      .main{
+            padding: 1rem;
+      }
+      .banner{
+            max-width: 300px;
+      }
+      .aside h3{
+            font-size: var(--size-2);
+      }
+      .aside p{
+            font-size: var(--size-1);
+      }
+      .section{
+            padding: 1rem;
+      }
+      .card h4{
+            font-size: 18pt;
+            bottom: 90px;
+      }
+      .controlMenu h2{
+            font-size: 20pt;
+            text-transform: lowercase;
+      }
+     .navLinkMobile li a{
+      font-size: 19pt;
+     }
+      
+
+      
+}
